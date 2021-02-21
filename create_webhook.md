@@ -27,9 +27,9 @@ Tableau Server only provides notification using email and (soon as of Feb 2021) 
 *	Add a name
 *	Click “Create new token”
 [insert image]
-Dialog box pops up with your token. Make sure you save it!
+* Dialog box pops up with your token. Make sure you save it!
 [insert image]
-*	My token is blanked out. No need for you to access my system. 
+*	My token is blanked out. No need for you to access my system. :smiley:
 *	Token will now be listed
 [insert image]
 * Token lifespan:
@@ -75,7 +75,7 @@ Dialog box pops up with your token. Make sure you save it!
  
 *	Click “Use sample payload to generate schema”
  
-*	Paste payload from webhooks documentation
+*	Paste payload from [webhooks documentation](https://help.tableau.com/current/developer/webhooks/en-us/docs/webhooks-events-payload.html)
 ```json
 {
   "resource":"DATASOURCE",
