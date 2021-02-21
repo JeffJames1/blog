@@ -107,7 +107,7 @@ Tableau Server only provides notification using email and (soon as of Feb 2021) 
 ### Update the environment
 *	Place the target URL in the “webhook-url” variable
 *	Set the event that you’d like to monitor
-  *	Ex.: webhook-source-event-datasource-refresh-started
+  *	Ex.: `webhook-source-event-datasource-refresh-started`
 *	Set the name of the webhook that you would like to create
 ### Create the webhook
 *	Open the “Create a webhook” request
