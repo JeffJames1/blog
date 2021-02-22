@@ -47,9 +47,9 @@ Tableau Server only provides notification using email and (soon as of Feb 2021) 
 
 ![image of Postman environment contents](images/webooks_and_teams/postman_environment.png)
 *	Open JSON > Sign in (personal access token)
+  * site-contentUrl is the name of your site
   * pat-name is the name of the token that you created above
   * pat-secret is the value of the token
-  * site-contentUrl is the name of your site
 
 ![image of Postman signin json request](images/webooks_and_teams/postman_signin_json_request.png)
 
