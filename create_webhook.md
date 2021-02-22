@@ -141,6 +141,9 @@ Tableau Server only provides notification using email and (soon as of Feb 2021) 
 *	New extract refreshes/successes/failures will be posted to the channel
 
 ![image of teams message](images/webooks_and_teams/teams_message.png)
+
+* Roll your own code
+  * Lets you do whatever you need and provide notification however you want, but it consumes development resources, can be slow, opportunity cost
 *	The message shows an ID for whoever created the flow, but updating passwords, etc. is not required for that user
   *	That's why we used the flowbot	
 *	On my team, we only monitor failures and only for key pieces of content. The volume of traffic is too high beyond that.
