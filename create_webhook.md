@@ -26,12 +26,12 @@ Tableau Server only provides notification using email and (soon as of Feb 2021) 
 *	Scroll to Personal Access Tokens
 *	Add a name
 *	Click “Create new token”
-![image of personal access token creation](./images/webhooks_and_teams/pat_creation_1.png)
+![image of personal access token creation](images/webooks_and_teams/pat_creation_1.png)
 * Dialog box pops up with your token. Make sure you save it!
-![image of personal access token pop up](./images/webhooks_and_teams/pat_creation_2.png)
+![image of personal access token pop up](images/webhooks_and_teams/pat_creation_2.png)
 *	My token is blanked out. No need for you to access my system. :smiley:
 *	Token will now be listed
-![image of personal access token after created](./images/webhooks_and_teams/pat_creation_3.png)
+![image of personal access token after created](images/webhooks_and_teams/pat_creation_3.png)
 * Token lifespan:
   * Expire if not used for 15 days. Expiration time can be adjusted if needed
   * Expire in 1 year if used at least every 15 days
