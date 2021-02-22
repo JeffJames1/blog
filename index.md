@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+# Welcome to the Embedded Viz Blog
 
-You can use the [editor on GitHub](https://github.com/JeffJames1/blog/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Purpose
+The topics covered will be things that interest me. That generally means they'll be about embedded/OEM/SaaS topics for data visualization and reporting with a helping of database and maybe some philosophy/lessons learned from a long and varied career.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Unlike a lot over blogs that cover visualizations, don't expect a lot of visual stuff and design. I'm much more likely to cover performance, coding, administration and security
 
-### Markdown
+## Frequency of content
+TBD. Honestly, I'm not sure, probably 1-2 time/month
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+For now, I have a LOT of content that has been used primarily for internal use at [Cerner](https://www.cerner.com). I'll be mixing that will new ideas, so there will likely be a more frequent cadence until I work through that backlog.
 
-```markdown
-Syntax highlighted code block
+# About me
+I've had widely varying career including stints as a mechanic, molecular geneticist (my degree), Weapon Systems Officer, and agile coach. I've now worked for Cerner Corporation for 20 years and am currently a Director in Data Analytics Product Management. If you are outside the Healthcare industry and haven't heard of Cerner, we're a Fortune 500 company based in Kansas City and provide Healthcare IT solutions to over 20,000 facilities worldwide.
 
-# Header 1
-## Header 2
-### Header 3
+My areas of responsibility include the overall direction for our Tableau and SAP Business Objects infrastructure which covers multiple production Tableau Server farms totaling over 200 Cores and 700+ Tableau Desktops. I'm also responsible for our Data Visualization and Geospatial Analytics Centers of Excellence.
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/JeffJames1/blog/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+My other Tableau activities include: delivering intermediate and advanced training to Cerner developers; presenting at TC15; presenting multiple sessions at Cerner’s DevCon and DataCon conferences; managing the company’s internal Tableau blogs and discussion forums; and working with Tableau’s product management to advocate for the embedded analytics community
