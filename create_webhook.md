@@ -28,10 +28,10 @@ Tableau Server only provides notification using email and (soon as of Feb 2021) 
 *	Click “Create new token”
 ![image of personal access token creation](images/webooks_and_teams/pat_creation_1.png)
 * Dialog box pops up with your token. Make sure you save it!
-![image of personal access token pop up](images/webhooks_and_teams/pat_creation_2.png)
+![image of personal access token pop up](images/webooks_and_teams/pat_creation_2.png)
 *	My token is blanked out. No need for you to access my system. :smiley:
 *	Token will now be listed
-![image of personal access token after created](images/webhooks_and_teams/pat_creation_3.png)
+![image of personal access token after created](images/webooks_and_teams/pat_creation_3.png)
 * Token lifespan:
   * Expire if not used for 15 days. Expiration time can be adjusted if needed
   * Expire in 1 year if used at least every 15 days
@@ -41,15 +41,15 @@ Tableau Server only provides notification using email and (soon as of Feb 2021) 
 ### Environment
 *	Install Tableau Webhooks Requests Collection
 *	Setup Environment
-
+![image of Postman environment contents](images/webooks_and_teams/postman_environment.png)
 *	Open JSON > Sign in (personal access token)
-
+![image of Postman signin json request](images/webooks_and_teams/postman_signin_json_request.png)
   * pat-name is the name of the token that you created above
   * pat-secret is the value of the token
   * site-contentUrl is the name of your site
 *	Click send
 *	Response (values removed)
-
+![image of Postman signin json request](images/webooks_and_teams/postman_signin_json_response.png)
   * Please the value of “token” in the tableau-auth-token variable in the environment
 *	The completes the environment setup
 *	The auth token has a lifespan and will need to be regenerated periodically
@@ -57,6 +57,7 @@ Tableau Server only provides notification using email and (soon as of Feb 2021) 
 *	Open “List webhooks”
 *	Click send
 *	You should get an empty list for now
+![image of webhooks json response empty list](images/webooks_and_teams/webhooks_json_response_empty_list.png)
 
 ## Teams
 *	Create a team for monitoring or decide on one to reuse
