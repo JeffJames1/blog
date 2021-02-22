@@ -73,16 +73,22 @@ Tableau Server only provides notification using email and (soon as of Feb 2021) 
 ## Power Automate
 *	Create
 
+![image of power automate create button](images/webooks_and_teams/power_automate_create_1.png)
 *	Start from blank > Automated cloud flow
 
+![image of power automate cloud flow button](images/webooks_and_teams/power_automate_create_2.png)
 *	Click Skip
 
+![image of power automate create button](images/webooks_and_teams/power_automate_create_3.png)
 *	Click Built-in and the Request
 
+![image of power automate create button](images/webooks_and_teams/power_automate_create_4.png)
 *	Click “When an HTTP request is received”
 
+![image of power automate create button](images/webooks_and_teams/power_automate_create_5.png)
 *	Click “Use sample payload to generate schema”
 
+![image of power automate create button](images/webooks_and_teams/power_automate_create_6.png)
 *	Paste payload from [webhooks documentation](https://help.tableau.com/current/developer/webhooks/en-us/docs/webhooks-events-payload.html)
 ```json
 {
@@ -101,16 +107,22 @@ Tableau Server only provides notification using email and (soon as of Feb 2021) 
 ```
 *	Click OK
 
+![image of power automate create button](images/webooks_and_teams/power_automate_create_7.png)
 *	Click “+ New step”
 
+![image of power automate create button](images/webooks_and_teams/power_automate_create_8.png)
 *	Choose “Standard” and then “Microsoft Teams”
 
+![image of power automate create button](images/webooks_and_teams/power_automate_create_9.png)
 *	Choose “Post a message as the Flow bot to a channel (preview)
 
+![image of power automate create button](images/webooks_and_teams/power_automate_create_10.png)
 *	Set the Team, Channel, and message
 
+![image of power automate create button](images/webooks_and_teams/power_automate_create_11.png)
 *	Click on the request step and copy the URL that is created
 
+![image of power automate create button](images/webooks_and_teams/power_automate_create_12.png)
 ## Postman
 ### Update the environment
 *	Place the target URL in the “webhook-url” variable
@@ -127,6 +139,7 @@ Tableau Server only provides notification using email and (soon as of Feb 2021) 
 ## Monitoring
 *	New extract refreshes/successes/failures will be posted to the channel
 
+![image of teams message](images/webooks_and_teams/teams_message.png)
 *	The message shows an ID for whoever created the flow, but updating passwords, etc. is not required for that user
 *	We only monitor failures. The volume of traffic is too high beyond that.
 *	The resource name could be used to construct more sophisticated routing if needed
