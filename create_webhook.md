@@ -46,7 +46,8 @@ Tableau Server only provides notification using email and (soon as of Feb 2021) 
 *	Setup Environment
 
 ![image of Postman environment contents](images/webooks_and_teams/postman_environment.png)
-*	Open JSON > Sign in (personal access token)
+
+* Open JSON > Sign in (personal access token)
   * site-contentUrl is the name of your site
   * pat-name is the name of the token that you created above
   * pat-secret is the value of the token
@@ -57,7 +58,7 @@ Tableau Server only provides notification using email and (soon as of Feb 2021) 
 *	Response (values removed)
 
 ![image of Postman signin json request](images/webooks_and_teams/postman_signin_json_response.png)
-  * Please the value of “token” in the tableau-auth-token variable in the environment
+  * Place the value of “token” in the tableau-auth-token variable in the environment
 *	The completes the environment setup
 *	The auth token has a lifespan and will need to be regenerated periodically
 ### Webhooks
