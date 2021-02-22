@@ -90,6 +90,7 @@ Tableau Server only provides notification using email and (soon as of Feb 2021) 
 
 ![image of power automate create button](images/webooks_and_teams/power_automate_create_6.png)
 *	Paste payload from [webhooks documentation](https://help.tableau.com/current/developer/webhooks/en-us/docs/webhooks-events-payload.html)
+
 ```json
 {
   "resource":"DATASOURCE",
