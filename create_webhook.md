@@ -56,11 +56,12 @@ Tableau Server only provides notification using email and (soon as of Feb 2021) 
 
 *	Click send
 *	Response (values removed)
-  * Place the value of “token” in the tableau-auth-token variable in the environment
 
 ![image of Postman signin json request](images/webooks_and_teams/postman_signin_json_response.png)
+* Place the value of “token” in the tableau-auth-token variable in the environment
 *	The completes the environment setup
 *	The auth token has a lifespan and will need to be regenerated periodically
+
 ### Webhooks
 *	Open “List webhooks”
 *	Click send
