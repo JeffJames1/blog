@@ -127,16 +127,16 @@ Tableau Server only provides notification using email and (soon as of Feb 2021) 
 ## Postman
 ### Update the environment
 *	Place the target URL in the “webhook-url” variable
-*	Set the event that you’d like to monitor
-  *	Ex.: `webhook-source-event-datasource-refresh-started`
+* Set the event that you’d like to monitor
+  * Ex.: `webhook-source-event-datasource-refresh-started`
 *	Set the name of the webhook that you would like to create
 ### Create the webhook
 *	Open the “Create a webhook” request
-*	Click “Send”
-  *	The response will contain the details of the webhook
+* Click “Send”
+  * The response will contain the details of the webhook
 *	Open the “List webhooks” request
-*	Click “Send”
-  *	The list will now contain your webhook
+* Click “Send”
+  * The list will now contain your webhook
 ## Monitoring after the webhook and flow are created
 *	New extract refreshes/successes/failures will be posted to the channel
 
@@ -144,7 +144,5 @@ Tableau Server only provides notification using email and (soon as of Feb 2021) 
 
 * The message shows an ID for whoever created the flow, but updating passwords, etc. is not required for that user
   * That's why we used the flowbot
-*	The message shows an ID for whoever created the flow, but updating passwords, etc. is not required for that user
-  *	That's why we used the flowbot	
 *	On my team, we only monitor failures and only for key pieces of content. The volume of traffic is too high beyond that.
 *	The resource name could be used to construct more sophisticated routing if needed
