@@ -142,6 +142,6 @@ Tableau Server only provides notification using email and (soon as of Feb 2021) 
 
 ![image of teams message](images/webooks_and_teams/teams_message.png)
 *	The message shows an ID for whoever created the flow, but updating passwords, etc. is not required for that user
-  * That's why we used the flowbot	
+  *	That's why we used the flowbot	
 *	On my team, we only monitor failures and only for key pieces of content. The volume of traffic is too high beyond that.
 *	The resource name could be used to construct more sophisticated routing if needed
